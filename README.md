@@ -1,18 +1,12 @@
 # Title: Directory Backup
 ### This is a simple shell script that automates the process of creating a backup of a directory
-## Here's how to use the program:
 
-1. Run the program in a Python environment (e.g. IDLE, Jupyter Notebook, or terminal)
-2. Enter a comma-separated list of names when prompted (e.g. "Alice, Bob, Charlie, Dave, Ellen")
-3. Enter the desired group size when prompted (e.g. "2" for pairs or "3" for trios)
-4. The program will generate and print random groups based on the input names and group size.
+## How to use:
+1. To use this script, save it as a text file with a .sh extension (e.g. backup_script.sh). 
+2. Then, navigate to the directory where the script is saved and run the following command in your terminal:bash backup_script.sh
+3. This will execute the script and create a compressed backup file of the specified directory. You can modify the DIR_TO_BACKUP and BACKUP_FILE_NAME variables to fit your needs. Additionally, you can add more commands to the script to further automate the backup process, such as copying the backup file to a remote server or scheduling the backup to run at specific intervals using a tool like cron.
 
-Note: This program assumes that the input names are all unique and that the number of names is divisible by the group size. If these assumptions do not hold, the program may not work as expected.
+## Purpose:
+I wanted to practice using shell scripting that would automate something useful in my life and it was fun to learn.
 
-## What I have learned: 
-1. How to hold a list of names within Python.
-2. Generate the size of that list.
-3. Practice coding with Python coding structure.
 
-## Sceenshot:
-<img src= "" width="400">
