@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Set the directory to backup
+DIR_TO_BACKUP=/path/to/directory
+
+# Set the name of the backup file
+BACKUP_FILE_NAME=mybackup.tar.gz
+
+# Create the backup
+tar -zcvf $BACKUP_FILE_NAME $DIR_TO_BACKUP
+
+# Print a message to let the user know the backup is complete
+echo "Backup complete! Saved as $BACKUP_FILE_NAME"
