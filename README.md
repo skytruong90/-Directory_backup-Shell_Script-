@@ -7,7 +7,7 @@
 3. This will execute the script and create a compressed backup file of the specified directory. You can modify the DIR_TO_BACKUP and BACKUP_FILE_NAME variables to fit your needs. Additionally, you can add more commands to the script to further automate the backup process, such as copying the backup file to a remote server or scheduling the backup to run at specific intervals using a tool like cron.
 
 ## Purpose:
-I wanted to practice using shell scripting that would automate something useful in my life and it was fun to learn.
+I wanted to practice using shell scripting that would automate something useful in my life and it was fun way to learn shell scripting.
 
 ## What is shell script?
 A shell script is a script written in a shell programming language that runs on a command-line interface (CLI) or terminal. A shell is a program that acts as an intermediary between a user and the operating system, allowing users to interact with the operating system through a command-line interface.
